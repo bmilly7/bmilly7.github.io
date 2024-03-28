@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff; /* Blue navbar background */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Homepage Styles */
+.home-header {
+    color: #fff; /* White text */
+    background-color: #28a745; /* Green header background */
+    padding: 20px;
+    text-align: center;
+}
+
+.home-intro {
+    color: #007bff; /* Blue text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* About Page Styles */
+.about-name {
+    color: #dc3545; /* Red name */
+}
+
+.about-intro,
+.about-hobby {
+    color: #6c757d; /* Gray text */
+    margin-bottom: 20px;
+}
+
+/* Contact Page Styles */
+.contact-form {
+    background-color: #ffc107; /* Yellow form background */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-label {
+    color: #343a40; /* Dark text */
+    font-weight: bold;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-submit {
+    background-color: #007bff; /* Blue submit button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
